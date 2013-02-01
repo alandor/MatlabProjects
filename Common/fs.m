@@ -1,7 +1,7 @@
 function out = fs( varargin )
 % figure and than imshow with all arguments
 % if second any of the arguments is 'fs' than makes the figure
-% fullscreen
+% fullscree n
 
 h = figure('Name' , inputname(1));
 
