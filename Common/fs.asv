@@ -1,0 +1,20 @@
+function out = fs( varargin )
+% figure and than imshow with all arguments
+% if second any of the arguments is 'fs' than makes the figure
+% fullscreen
+
+h = figure('Name' , inputname(1));
+
+for k = 1: length ( varargin )
+% make full screen    
+end
+
+imshow ( varargin{:} );
+impixelinfo; title(inputname(1));
+
+if ( nargout > 0 ) 
+    out = h;
+end
+
+end
+
